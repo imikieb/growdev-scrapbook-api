@@ -14,5 +14,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.3"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts"
   }
 }
