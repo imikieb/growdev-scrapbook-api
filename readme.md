@@ -1,8 +1,3 @@
-## Avaliação de Módulo - API ##
-
-git init
-git add .
-git status
-git commit -m "mensagem de alteração"
-git remote add origin "url"
-git push
+## Avaliação de Módulo ##
+Back-end feito pelo Framework Express para Node.js.
+Uma aplicação com um sistema simples: cadastrar usuário, logar usuário e adicionar recados para o usuário logado.
