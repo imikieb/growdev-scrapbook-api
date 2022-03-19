@@ -1,4 +1,4 @@
-import express, {Request, Response, NextFunction, Router} from 'express';
+import express, {Request, Response} from 'express';
 import cors from 'cors';
 import Users from './classes/Users';
 import {registerValidate, loginValidate, userValidate, noteValidate} from './middlewares/middlewares';

@@ -60,7 +60,6 @@ export function userValidate(req: Request, res: Response, next: NextFunction) {
     }
 }
 
-
 export function loginValidate(req: Request, res: Response, next: NextFunction) {
     const {name, password} = req.body;
     const userName = userList.find(user => user.name === name);
