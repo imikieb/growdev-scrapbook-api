@@ -1,6 +1,6 @@
 export default class Notes {
     id: number;
     constructor(public note: string) {
-        this.id = Math.floor(Math.random() * 250);
+        this.id = Math.floor(Math.random() * 500);
     }
 }
