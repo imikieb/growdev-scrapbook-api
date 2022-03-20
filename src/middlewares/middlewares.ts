@@ -51,7 +51,7 @@ export function userValidate(req: Request, res: Response, next: NextFunction) {
     if(name !== userName) {
         return validate = false,
         res.status(404).json({
-            mensagem: 'Usuário não está logado.'
+            mensagem: 'Usuário não encontrado.'
         });
     }
 

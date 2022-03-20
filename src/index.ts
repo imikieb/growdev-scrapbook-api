@@ -24,13 +24,13 @@ app.post('/register', registerValidate, (req: Request, res: Response) => {
 });
 
 app.post('/login', loginValidate, (req: Request, res: Response) => {
-    return res.status(200).json({
+    return res.json({
         message: 'Redirecionando...'
     });
 });
 
 app.post('/notes', userValidate, (req: Request, res: Response) => {
-    res.status(200).json({
+    res.json({
         mensagem: 'Logado com sucesso.'
     });
 });
